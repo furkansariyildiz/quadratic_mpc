@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/quadratic_mpc/quadratic_mpc.hpp
+
+/home/furkan/quadratic_mpc/src/quadratic_mpc/src/main.cpp
+quadratic_mpc/quadratic_mpc.hpp
+/home/furkan/quadratic_mpc/src/quadratic_mpc/src/quadratic_mpc/quadratic_mpc.hpp
+iostream
+-
+
