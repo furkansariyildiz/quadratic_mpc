@@ -1,8 +1,0 @@
-/home/furkan/quadratic_mpc/src/quadratic_mpc/build/CMakeFiles/install/strip.dir
-/home/furkan/quadratic_mpc/src/quadratic_mpc/build/CMakeFiles/install/local.dir
-/home/furkan/quadratic_mpc/src/quadratic_mpc/build/CMakeFiles/install.dir
-/home/furkan/quadratic_mpc/src/quadratic_mpc/build/CMakeFiles/list_install_components.dir
-/home/furkan/quadratic_mpc/src/quadratic_mpc/build/CMakeFiles/rebuild_cache.dir
-/home/furkan/quadratic_mpc/src/quadratic_mpc/build/CMakeFiles/edit_cache.dir
-/home/furkan/quadratic_mpc/src/quadratic_mpc/build/CMakeFiles/main.dir
-/home/furkan/quadratic_mpc/src/quadratic_mpc/build/CMakeFiles/quadratic_mpc.dir
