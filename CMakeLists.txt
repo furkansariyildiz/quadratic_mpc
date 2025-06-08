@@ -9,6 +9,13 @@ add_library(${PROJECT_NAME} SHARED
   src/quadratic_mpc.cpp
 )
 
+find_package(SymEngine REQUIRED)
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(GMP REQUIRED gmp)
+
+target_include_directories(${PROJECT_NAME} PRIVATE ${GMP_INCLUDE_DIRS})
+target_link_libraries(${PROJECT_NAME} PRIVATE symengine ${GMP_LIBRARIES})
+
 install(TARGETS ${PROJECT_NAME}
         EXPORT ${PROJECT_NAME}Targets
         LIBRARY DESTINATION lib
